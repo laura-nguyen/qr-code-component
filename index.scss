@@ -1,0 +1,12 @@
+@import "./styles/_variables.scss";
+@import "./styles/_typography.scss";
+@import "./styles/_mixins_scss";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
