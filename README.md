@@ -28,7 +28,7 @@ This is the first challenge for someone new to HTML and CSS. The task is to buil
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/laura-nguyen/qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://laura-nguyen.github.io/qr-code-component/)
 
 ## My process
 
