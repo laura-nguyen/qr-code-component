@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+h1 {
+  font-size: 1.375rem;
+  line-height: 120%;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 0.9375rem;
+  line-height: 140%;
+  font-weight: 400;
+  letter-spacing: 0.0125rem;
+  color: hsl(216, 15%, 48%);
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+@media (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0rem 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0477);
+  padding: 1.5rem 1.5rem 2.5rem;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.card__qr-code {
+  width: 18rem;
+  height: auto;
+  border-radius: 0.625rem;
+}
+.card__text {
+  text-align: center;
+  width: auto;
+  padding: 0 1rem;
+  width: 18rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=index.css.map */

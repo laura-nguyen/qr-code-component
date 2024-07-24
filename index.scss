@@ -1,9 +1,43 @@
-@import "./styles/_variables.scss";
-@import "./styles/_typography.scss";
-@import "./styles/_mixins_scss";
+@use "styles/partials/mixins" as *;
+@use "styles/partials/variables" as *;
+@use "styles/partials/typography" as *;
+@use "styles/partials/global" as *;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  @include desktop {
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: $white;
+  box-shadow: 0rem 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0477);
+  padding: $spacing-300 $spacing-300 $spacing-500;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+
+  &__qr-code {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.625rem;
+  }
+
+  &__text {
+    text-align: center;
+    width: auto;
+    padding: 0 $spacing-200;
+    width: 18rem;
+  }
+}
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 
   a {

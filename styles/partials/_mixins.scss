@@ -1,6 +1,8 @@
-$mobile: 375px;
-$desktop: 1440px;
+@use "variables" as *;
+@use "typography" as *;
 
+@use "variables" as *;
+@use "typography" as *;
 @mixin mobile {
   @media (min-width: $mobile) {
     @content;
